@@ -1,0 +1,21 @@
+li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+  </li>
+
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  
+  <img src="paris.jpg" alt="Paris">
+
+
