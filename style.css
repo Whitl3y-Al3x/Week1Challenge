@@ -1,13 +1,119 @@
-li {
-    float: left;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header a {
+    text-decoration: none;
+    color: #fbfcfdce(249, 251, 253);
+}
+header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  header nav ul li {
+    display: inline;
+  }
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fffffd;
+    margin: 0;
+    display: inline;
+  }
+
+/* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #2b62a1ce;
+  }
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    margin: 0;
+  }
+  
+  header a {
+    color: white;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+ul {
+    float: right;
   }
   
   a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
+    display: inline;
+    padding: 30px;
+    background-color: #2b62a1ce;
+  } 
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(225, 227, 230);
   }
-  </li>
+  body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #f9fbfcf6;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+.search-engine-optimization {
+    text-align: left
+}
+.search-engine-optimization {
+  width: 900px;
+  margin: 50px auto 30px auto;
+  background: #0568daf8;
+  color: #ffffff;
+}
+.search-engine-optimization img {
+    width: 35%;
+    float: left;
+  }
+  .online-reputation-management {
+    text-align: left
+}
+  
+.online-reputation-management {
+  width: 900px;
+  margin: 0 auto 30px auto;
+  background: #0568daf8;
+  color: #ffffff;
+  
+  .online-reputation-management img {
+    width: 35%;
+    float: left;
+}
+
+.social-media-marketing {
+    text-align: left
+}
+.social-media-marketing {
+  width: 900px;
+  margin: 0 auto 30px auto;
+  background: #0568daf8;
+  color: #ffffff;
+}
+.social-media-marketing img {
+    width: 35%;
+    float: left;
+  }
+  
+
+
+  /*Text*/
+  /* </li> */
 
   img {
     border: 1px solid #ddd;
@@ -15,6 +121,25 @@ li {
     padding: 5px;
     width: 150px;
   }
+  .search img {
+    width: 35%;
+    float: left;
+  }
+  .search-info {
+      padding: 35px;
+      float: left;
+      width: 65%
+  }
+
+  /* homepage hero */
+.hero {
+    margin: 20px;
+    background-color: lightgrey;
+    font-size: 20px;
+    color: white;
+  }
+  
+ 
   
   <img src="paris.jpg" alt="Paris">
 
